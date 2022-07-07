@@ -19,7 +19,7 @@ model Car {
     maxSpeed Int
     zeroToHundred Float
     type String
-    transmition String
+    transmission String
     maxPeople Int
     horsePower Int
 }
