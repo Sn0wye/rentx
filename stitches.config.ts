@@ -3,7 +3,7 @@ export const { styled, getCssText } = createStitches({
   theme: {
     fonts: {
       inter: 'Inter',
-      roboto: 'Roboto',
+      archivo: 'Archivo',
     },
     colors: {
       brand: '#8257e6',
@@ -19,6 +19,13 @@ export const { styled, getCssText } = createStitches({
       grayBlack: '#DEDEE3',
       graySecondary: '#EBEBF0',
       grayPrimary: '#F4F5F6',
+    },
+    transitions: {
+      transition: 'all 400ms ease-in-out',
+    },
+    media: {
+      mobile: '(max-width: 640px)',
+      tablet: '(max-width: 1024px',
     },
   },
 });
