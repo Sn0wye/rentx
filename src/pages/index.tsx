@@ -8,9 +8,9 @@ import {
   HomeWrapper,
 } from './style';
 import logo from '../../public/img/logo.svg';
+import homepageIllustration from '../../public/img/homepageIllustration.svg';
 import Image from 'next/image';
 import { Button } from '../styles/button';
-import homepageIllustration from '../../public/img/homepageIllustration.svg';
 import Link from 'next/link';
 
 const Home: NextPage = () => {
